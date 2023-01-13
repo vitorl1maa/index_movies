@@ -1,4 +1,10 @@
+// hooks
 import { useState, useEffect } from "react";
+
+// components
+import MovieCard from "../../components/MovieCard";
+
+import "../../assets/MoviesGrid.css";
 
 const moviesURL = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY;
@@ -21,13 +27,13 @@ const Home = () => {
 
   }, [])
 
-  const name = 'Meu nome'
-  console.log(name);
-
-  console.log(moviesURL, apiKey);
   return (
-    <div>
-      {topMovies && topMovies.map((movie) => <p>{movie.title}</p>)}
+    <div className="container">
+      <h2 className="title">Top 20 Melhores filmes: </h2>
+      <div className="movies-container">
+        {topMovies.length === 0 && <p>Carregando...</p>}
+        {topMovies.length > 0 && topMovies.map((movie) => <MovieCard key={movie.id} movie={movie}/>)}
+      </div>
     </div>
   )
 }
