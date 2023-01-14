@@ -55,6 +55,7 @@
 .info h3 {
   margin-bottom: 1rem;
   display: flex;
+  color: #42FF00;
 }
 
 .info:first-child {
