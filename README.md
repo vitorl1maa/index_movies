@@ -23,6 +23,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - React.JS
 - API
 - Npm
+- Postman
 
 
 ## 💻 Projeto
