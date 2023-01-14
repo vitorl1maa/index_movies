@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Este projeto é um catálogo de filmes construído com React.JS. Manipulei uma API externa(TMDB API) para exibir uma lista dos 20 melhores filmes mais bem avaliados pela comunidade da https://www.themoviedb.org/?language=pt-BR. É possível também fazer buscas individuais por seus filmes favoritos. 
+Este projeto é um catálogo de filmes construído com React.JS. Manipulei uma API sensacional (TMDB API) para exibir uma lista dos 20 melhores filmes mais bem avaliados pela comunidade da https://www.themoviedb.org/?language=pt-BR. É possível também fazer buscas individuais por seus filmes favoritos. 
 
 ## 🔖 Layout
 
