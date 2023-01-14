@@ -39,7 +39,7 @@ const Movie = () => {
   }, []);
 
   return (
-    <div>
+    <div className={styles.container}>
       {movie && <>
         <div className={styles.movie_page}>
           <MovieCard movie={movie} showLink={false} />

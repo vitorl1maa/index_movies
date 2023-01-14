@@ -77,6 +77,7 @@
   border-radius: 10px;
   cursor: pointer;
   transition: .4s;
+  margin-bottom: 5rem;
 }
 
 .btn_back:hover {
@@ -84,6 +85,32 @@
   color: #42FF00;
   background-color: #FFF;
 }
+
+@media (max-width: 1017px) {
+
+
+  .movie_page img {
+    width: 500px;
+  }
+
+  
+  
+
+}
+
+@media (max-width: 900px) {
+
+  .movie_page img{
+    width: 100%;
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
+
+
+}
+
 
 
 

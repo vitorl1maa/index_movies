@@ -1,13 +1,48 @@
 #dark {
   background-color: #1E1E1E;
-  
+  transition: .5s;
+}
+
+#dark  h2 {
+  color: #fff;
 }
 
 #light {
   background-color: #FFF;
-  color: #1E1E1E;
+  transition: .5s;
 }
 
 #light p {
-  color: black;
+  color: #151515;
 }
+
+#light a, h1, h2 {
+  color: #151515;
+}
+
+#light button {
+  color: #151515;
+}
+
+.switch div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+.switch svg {
+  font-size: 1.3rem;
+  
+}
+
+.switch span {
+  display: flex;
+}
+
+.hide-search {
+  transform: none;
+}
+
+

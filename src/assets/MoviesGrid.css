@@ -1,8 +1,9 @@
 .container .title {
-  color: #FFF;
   font-size: 2rem;
   margin: 5rem 0 1rem;
-  padding: 1rem 2rem;
+  padding: 3rem 2rem;
+  display: flex;
+  gap: .5rem;
   
 }
 
@@ -83,4 +84,19 @@
 
 .description {
   padding-bottom: 10rem;
+}
+
+@media (max-width: 900px) {
+
+  .movies-container div {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container .title {
+    display: block;
+  }
+  
 }
