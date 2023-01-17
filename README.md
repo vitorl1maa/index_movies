@@ -24,6 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - API
 - Npm
 - Postman
+- Vite
 
 
 ## 💻 Projeto
